@@ -1,6 +1,6 @@
 cask "agenthub" do
-  version "0.0.0"
-  sha256 "placeholder"
+  version "1.10.0"
+  sha256 "ca990e33332c4b1c35d568343554cec7b2f31d0656cf6ac6ef972282def704d0"
 
   url "https://github.com/scottkw/agenthub/releases/download/v#{version}/agenthub-v#{version}-darwin-universal.dmg"
   name "AgentHub"
