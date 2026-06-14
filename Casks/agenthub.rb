@@ -7,7 +7,7 @@ cask "agenthub" do
   desc "AI coding session manager with tabbed terminals and Tailscale web access"
   homepage "https://github.com/scottkw/agenthub"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AgentHub.app"
   binary "#{appdir}/AgentHub.app/Contents/MacOS/AgentHub", target: "agenthub"
